@@ -17,6 +17,7 @@
   font-family: "Mukta", sans-serif;
 }
 
+/* set tổng chiều rộng của button ~192px */
 .learn-more__1 {
   width: 12rem;
   height: auto;
@@ -42,6 +43,7 @@
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
+/* set đường ngang cho mũi tên bằng width height nhưng tạm thời ẩn nó đi bằng cách loại bỏ background */
 .arrow__1 {
   left: 0.625rem;
   width: 1.125rem;
@@ -50,6 +52,7 @@
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
+/* Tạo ra dấu lớn của mũi tên bằng cách sử dụng border của pseudo và quay nó 45deg */
 .arrow__1::before {
   position: absolute;
   content: "";
@@ -94,4 +97,17 @@
 /*  
     THAM KHẢO TẠI
     ig: /coding_.master 
+*/
+
+
+/* 
+    transition-timing-function: cubic-bezier(0.65, 0, 0.076, 1);
+    Quy định cách thức chuyển động
+    -----------------------
+    có các giá trị:
+    ease: chậm → nhanh → chậm
+    ease-in: chậm →
+    ease-out: → chậm
+    ease-in-out: chậm → __ → chậm
+    linear: chuyển động đều
 */
